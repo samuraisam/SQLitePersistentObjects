@@ -27,7 +27,8 @@
 #ifdef TARGET_OS_COCOTRON
   static NSDateFormatter *dateFormatter = nil;
   if (!dateFormatter)
-    dateFormatter = [[[NSDateFormatter alloc] initWithDateFormat:@"%Y-%m-%d %H:%M:%S.%F" allowNaturalLanguage:NO] retain];
+    dateFormatter = [[[NSDateFormatter alloc] initWithDateFormat:
+                      @"%Y-%m-%d %H:%M:%S.%F" allowNaturalLanguage:NO] retain];
   NSDate *d;
   BOOL cvt = [dateFormatter getObjectValue:&d forString:columnData errorDescription:nil];
   assert(cvt);
@@ -47,7 +48,8 @@
 #ifdef TARGET_OS_COCOTRON
   static NSDateFormatter *dateFormatter = nil; 
   if (!dateFormatter) 
-    dateFormatter = [[[NSDateFormatter alloc] initWithDateFormat:@"%Y-%m-%d %H:%M:%S.%F" allowNaturalLanguage:NO] retain];
+    dateFormatter = [[[NSDateFormatter alloc] initWithDateFormat:
+                      @"%Y-%m-%d %H:%M:%S.%F" allowNaturalLanguage:NO] retain];
   return [dateFormatter stringForObjectValue:self];
 #else
   static NSDateFormatter *dateFormatter = nil;
@@ -57,7 +59,6 @@
   }
   
   NSString *formattedDateString = [dateFormatter stringFromDate:self];
-  [dateFormatter release];
   
   return formattedDateString;
 #endif
