@@ -41,6 +41,7 @@
 	[bd save];
 	
 	BasicData* bd2 = (BasicData*) [BasicData findFirstByCriteria:@"WHERE b_1 = %d",1];
+  NSLog(@"bd1:%@\nbd2:%@", bd, bd2);
 	STAssertTrue(bd.pk == bd2.pk, @"Variadic selection of a field");
 }
 

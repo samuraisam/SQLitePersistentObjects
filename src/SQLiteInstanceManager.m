@@ -20,7 +20,6 @@
 
 #import "SQLiteInstanceManager.h"
 #import "SQLitePersistentObject.h"
-#import "NSFileManager+Convenience.h"
 
 static SQLiteInstanceManager *sharedSQLiteManager = nil;
 
@@ -82,16 +81,7 @@ static SQLiteInstanceManager *sharedSQLiteManager = nil;
   static BOOL first = YES;
   
   if (first || database == NULL)
-  {
-    if (![NSFileManager fileNameExistsInDocumentsSandbox:self.databaseName])
-    {
-      NSFileManager *m = [[NSFileManager alloc] init];
-      NSError *error = [NSError alloc];
-      if (![m copyResourceItem:self.databaseName
-          toFileNameInSandboxDocs:self.databaseName andRetrunError:&error])
-        NSLog(@"error copying database to sandbox %@", error); 
-    }
-    
+  {    
     first = NO;
     if (!sqlite3_open([[self databaseFilepath] UTF8String], &database) == SQLITE_OK) 
     {
@@ -166,6 +156,7 @@ static SQLiteInstanceManager *sharedSQLiteManager = nil;
 - (void)dealloc
 {
   [databaseFilepath release];
+  [databaseName release];
   [super dealloc];
 }
 #pragma mark -
@@ -173,42 +164,37 @@ static SQLiteInstanceManager *sharedSQLiteManager = nil;
 
 - (NSString *)databaseFilepath
 {
-//  if (databaseFilepath == nil)
-//  {
-//    NSMutableString *ret = [NSMutableString string];
-//    NSString *appName = [[NSProcessInfo processInfo] processName];
-//    for (int i = 0; i < [appName length]; i++)
-//    {
-//      NSRange range = NSMakeRange(i, 1);
-//      NSString *oneChar = [appName substringWithRange:range];
-//      if (![oneChar isEqualToString:@" "]) 
-//        [ret appendString:[oneChar lowercaseString]];
-//    }
-//#if (TARGET_OS_COCOTRON)
-//    NSString *saveDirectory = @"./"; // TODO: default path is undefined on coctron
-//#elif (TARGET_OS_MAC && ! TARGET_OS_IPHONE)
-//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
-//    NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : NSTemporaryDirectory();
-//    NSString *saveDirectory = [basePath stringByAppendingPathComponent:appName];
-//#else
-//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-//    NSString *saveDirectory = [paths objectAtIndex:0];
-//#endif
-//    NSString *saveFileName = [NSString stringWithFormat:@"%@.sqlite3", ret];
-//    NSString *filepath = [saveDirectory stringByAppendingPathComponent:saveFileName];
-//    
-//    databaseFilepath = [filepath retain];
-//    
-//    if (![[NSFileManager defaultManager] fileExistsAtPath:saveDirectory]) 
-//      [[NSFileManager defaultManager] createDirectoryAtPath:saveDirectory withIntermediateDirectories:YES attributes:nil error:nil];
-//  }
-//  return databaseFilepath;
-  return [NSFileManager sandBoxDocsPathForFileName:self.databaseName];
+  if (!databaseFilepath) {
+#if (TARGET_OS_COCOTRON)
+    databaseFilepath = [[@"./" stringByAppendingPathComponent:self.databaseName] retain];
+#elif (TARGET_OS_MAC && ! TARGET_OS_IPHONE)
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
+    NSString *base = ([paths count] > 0) ? [paths objectAtIndex:0] : NSTemporaryDirectory();
+    databaseFilepath = [[base stringByAppendingPathComponent:self.databaseName] retain];
+#else
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    databaseFilepath = [[[paths objectAtIndex:0] stringByAppendingPathComponent:self.databaseName] retain];
+#endif
+  }
+  return databaseFilepath;
 }
+
+
 
 - (NSString *)databaseName
 {
-  return @"CFObjects.db";
+  if (!databaseName) {
+    NSMutableString *ret = [NSMutableString string];
+    NSString *appName = [[NSProcessInfo processInfo] processName];
+    for (int i = 0; i < [appName length]; i++) {
+      NSRange range = NSMakeRange(i, 1);
+      NSString *oneChar = [appName substringWithRange:range];
+      if (![oneChar isEqualToString:@" "]) 
+        [ret appendString:[oneChar lowercaseString]];
+    }
+    databaseName = [[ret stringByAppendingString:@".sqlite3"] retain];
+  }
+  return databaseName;
 }
 
 @end
