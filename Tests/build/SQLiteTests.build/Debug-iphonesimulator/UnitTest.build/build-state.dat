@@ -1,1067 +1,0 @@
-TUnitTest
-v7
-r0
-t305069252.963066
-cCheck dependencies
-cProcessInfoPlistFile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/Info.plist UnitTest-Info.plist
-cProcessPCH /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch.gch SQLiteTests_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMSenTestCase.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestSavingAndLoading.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/BasicData.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/Collections.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDataContainer.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/RecursiveReferential.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NestedCollections.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestDeleting.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestDeleting.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSData-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSData-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDate-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSDate-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableArray-MultipleSort.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableArray-MultipleSort.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableData-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSNumber-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSNumber-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-ClassName.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-ClassName.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-NumberStuff.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-NumberStuff.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLiteColumnName.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-UppercaseFirst.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-UppercaseFirst.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLiteInstanceManager.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/UIImage-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/UIImage-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestReversion.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestReversion.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestVariadicMethods.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestVariadicMethods.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject-Testing.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cPhaseScriptExecution "Run Script" /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Script-00A839340EEEFB22001F7FAE.sh
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C521A700000000000000132
-t1280449136
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/TargetConditionals.h
-c000000004BF4CBFA00000000000031E9
-t1274334202
-s12777
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/objc/message.h
-c000000004BFDF9F40000000000001B5D
-t1274935796
-s7005
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/objc/objc-class.h
-c000000004BFDF9F40000000000000032
-t1274935796
-s50
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/objc/objc-runtime.h
-c000000004BFDF9F40000000000000032
-t1274935796
-s50
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/objc/runtime.h
-c000000004BFDF9F400000000000053F9
-t1274935796
-s21497
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sqlite3.h
-c000000004BFDF9FB0000000000041A6F
-t1274935803
-s268911
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdio.h
-c000000004A5C14A70000000000004174
-t1247548583
-s16756
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004A11983400000000000010DD
-t1242667060
-s4317
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libsqlite3.0.dylib
-c000000004BFDFA0A0000000000079480
-t1274935818
-s496768
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSData-SQLitePersistence.m
-c000000004C7EC02F0000000000000579
-t1283375151
-s1401
-i"NSData-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSDate-SQLitePersistence.m
-c000000004C7EC02F0000000000000A02
-t1283375151
-s2562
-i"NSDate-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableArray-MultipleSort.m
-c000000004C7EC02F0000000000000A0E
-t1283375151
-s2574
-i"NSMutableArray-MultipleSort.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableData-SQLitePersistence.m
-c000000004C7EC02F000000000000046E
-t1283375151
-s1134
-i"NSMutableData-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSNumber-SQLitePersistence.m
-c000000004C7EC02F0000000000000674
-t1283375151
-s1652
-i"NSNumber-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-ClassName.m
-c000000004C7EC02F00000000000004C4
-t1283375151
-s1220
-i"NSObject-ClassName.h"
-i<objc/runtime.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-SQLitePersistence.m
-c000000004C7EC02F0000000000000797
-t1283375151
-s1943
-i"NSObject-SQLitePersistence.h"
-i"NSObject-ClassName.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-NumberStuff.m
-c000000004C7EC02F0000000000000AA0
-t1283375151
-s2720
-i"NSString-NumberStuff.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.h
-c000000004C7EC02F0000000000000444
-t1283375151
-s1092
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.m
-c000000004C7EC02F0000000000000872
-t1283375151
-s2162
-i"NSString-SQLiteColumnName.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLitePersistence.m
-c000000004C7EC02F0000000000000546
-t1283375151
-s1350
-i"NSString-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-UppercaseFirst.m
-c000000004C7EC02F0000000000000666
-t1283375151
-s1638
-i"NSString-UppercaseFirst.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.h
-c000000004C7EC02F0000000000000870
-t1283375151
-s2160
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<sqlite3.h>
-i<objc/objc-runtime.h>
-i<objc/runtime.h>
-i<objc/message.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m
-c000000004C7EC02F00000000000019D5
-t1283375151
-s6613
-i"SQLiteInstanceManager.h"
-i"SQLitePersistentObject.h"
-i"NSFileManager+Convenience.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.h
-c000000004C7EC02F0000000000002764
-t1283375151
-s10084
-i<Foundation/Foundation.h>
-i<sqlite3.h>
-i<objc/objc-runtime.h>
-i<objc/runtime.h>
-i<objc/message.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.m
-c000000004C7EC02F0000000000011D12
-t1283375151
-s72978
-i"SQLitePersistentObject.h"
-i"SQLiteInstanceManager.h"
-i"NSString-SQLiteColumnName.h"
-i"NSObject-SQLitePersistence.h"
-i"NSString-UppercaseFirst.h"
-i"NSString-NumberStuff.h"
-i"NSObject-ClassName.h"
-i"NSObject-MissingKV.h"
-i<objc/objc-class.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/UIImage-SQLitePersistence.m
-c000000004C7EC02F000000000000057C
-t1283375151
-s1404
-i"NSObject-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.h
-c000000004C7EC49D0000000000000096
-t1283376285
-s150
-i"SQLitePersistentObject.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.m
-c000000004C7EC49D00000000000008A2
-t1283376285
-s2210
-i"SQLitePersistentObject-Testing.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.h
-c000000004C7EC49D00000000000002EA
-t1283376285
-s746
-i<Foundation/Foundation.h>
-i"SQLitePersistentObject.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.m
-c000000004C7EC49D0000000000000294
-t1283376285
-s660
-i"BasicData.h"
-i"SQLitePersistentObject-Testing.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.h
-c000000004C7EC49D0000000000000316
-t1283376285
-s790
-i<Foundation/Foundation.h>
-i"SQLitePersistentObject.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.m
-c000000004C7EC49D0000000000000455
-t1283376285
-s1109
-i"Collections.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.h
-c000000004C7EC49D00000000000002C0
-t1283376285
-s704
-i<Foundation/Foundation.h>
-i"SQLitePersistentObject.h"
-i"BasicData.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.m
-c000000004C7EC49D00000000000005D9
-t1283376285
-s1497
-i"NSDataContainer.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.h
-c000000004C7EC49D00000000000001D5
-t1283376285
-s469
-i<Foundation/Foundation.h>
-i"SQLitePersistentObject.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.m
-c000000004C7EC49D000000000000046B
-t1283376285
-s1131
-i"NestedCollections.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.h
-c000000004C7EC49D0000000000000163
-t1283376285
-s355
-i<Foundation/Foundation.h>
-i"SQLitePersistentObject.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.m
-c000000004C7EC49D00000000000001F7
-t1283376285
-s503
-i"RecursiveReferential.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/SQLiteTests_Prefix.pch
-c000000004C7EC49D0000000000000051
-t1283376285
-s81
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestDeleting.m
-c000000004C7EC49D0000000000000DDE
-t1283376285
-s3550
-i"GTMSenTestCase.h"
-i"SQLitePersistentObject.h"
-i"SQLiteInstanceManager.h"
-i"NSString-SQLiteColumnName.h"
-i"Collections.h"
-i"NSDataContainer.h"
-i"RecursiveReferential.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestReversion.m
-c000000004C7EC49D000000000000056A
-t1283376285
-s1386
-i"GTMSenTestCase.h"
-i"SQLitePersistentObject.h"
-i"SQLiteInstanceManager.h"
-i"NSString-SQLiteColumnName.h"
-i"Collections.h"
-i"NSDataContainer.h"
-i"RecursiveReferential.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m
-c000000004C7EC49D000000000000198E
-t1283376285
-s6542
-i"GTMSenTestCase.h"
-i"SQLitePersistentObject.h"
-i"NSString-SQLiteColumnName.h"
-i"SQLitePersistentObject-Testing.h"
-i"SQLiteInstanceManager.h"
-i"BasicData.h"
-i"NSDataContainer.h"
-i"Collections.h"
-i"RecursiveReferential.h"
-i"NestedCollections.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestVariadicMethods.m
-c000000004C7EC49D00000000000003A4
-t1283376285
-s932
-i"GTMSenTestCase.h"
-i"SQLitePersistentObject.h"
-i"SQLiteInstanceManager.h"
-i"NSString-SQLiteColumnName.h"
-i"Collections.h"
-i"NSDataContainer.h"
-i"RecursiveReferential.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app
-t2
-s0
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app.dSYM
-t2
-s0
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/Info.plist
-t1283376449
-s469
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/PkgInfo
-t1283376449
-s8
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/UnitTest
-t2
-s0
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/BasicData.o
-t1283376452
-s18676
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/Collections.o
-t1283376452
-s17204
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o
-t1283376452
-s21940
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o
-t1283376452
-s6636
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMSenTestCase.o
-t1283376452
-s25636
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSData-SQLitePersistence.o
-t1283376452
-s8984
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDataContainer.o
-t1283376452
-s20128
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDate-SQLitePersistence.o
-t1283376452
-s11280
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableArray-MultipleSort.o
-t1283376452
-s10504
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o
-t1283376452
-s6548
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSNumber-SQLitePersistence.o
-t1283376452
-s10436
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-ClassName.o
-t1283376452
-s7168
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-SQLitePersistence.o
-t1283376452
-s12060
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-NumberStuff.o
-t1283376452
-s13348
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLiteColumnName.o
-t1283376452
-s9620
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLitePersistence.o
-t1283376452
-s8992
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-UppercaseFirst.o
-t1283376452
-s8780
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NestedCollections.o
-t1283376452
-s14752
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/RecursiveReferential.o
-t1283376452
-s9680
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLiteInstanceManager.o
-t2
-s0
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject-Testing.o
-t1283376452
-s11028
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject.o
-t1283376452
-s134440
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestDeleting.o
-t1283376452
-s26000
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestReversion.o
-t1283376452
-s15456
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestSavingAndLoading.o
-t1283376452
-s31716
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestVariadicMethods.o
-t1283376452
-s11672
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/UIImage-SQLitePersistence.o
-t1283376452
-s9444
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/UnitTest.LinkFileList
-c000000004C7EC54100000000000010A7
-t1283376449
-s4263
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Script-00A839340EEEFB22001F7FAE.sh
-c000000004C7EC5410000000000000048
-t1283376449
-s72
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/GTMDefines.h
-c000000004C7EC49D0000000000001A17
-t1283376285
-s6679
-i<TargetConditionals.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.h
-c000000004C7EC49D0000000000000499
-t1283376285
-s1177
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m
-c000000004C7EC49D000000000000188B
-t1283376285
-s6283
-i"GTMIPhoneUnitTestDelegate.h"
-i"GTMDefines.h"
-i<objc/runtime.h>
-i<stdio.h>
-i<UIKit/UIKit.h>
-i"GTMSenTestCase.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestMain.m
-c000000004C7EC49D000000000000046A
-t1283376285
-s1130
-i"GTMDefines.h"
-i<UIKit/UIKit.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.h
-c000000004C7EC49D000000000000C301
-t1283376285
-s49921
-i"GTMDefines.h"
-i<SenTestingKit/SenTestingKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.m
-c000000004C7EC49D0000000000001B79
-t1283376285
-s7033
-i"GTMSenTestCase.h"
-i<stdarg.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSData-SQLitePersistence.h
-c000000004C7EC02F0000000000000620
-t1283375151
-s1568
-i<Foundation/Foundation.h>
-i"NSObject-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSDate-SQLitePersistence.h
-c000000004C7EC02F000000000000064B
-t1283375151
-s1611
-i<Foundation/Foundation.h>
-i"NSObject-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSMutableArray-MultipleSort.h
-c000000004C7EC02F00000000000007EB
-t1283375151
-s2027
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSMutableData-SQLitePersistence.h
-c000000004C7EC02F00000000000004D2
-t1283375151
-s1234
-i<Foundation/Foundation.h>
-i"NSObject-SQLitePersistence.h"
-i"NSData-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSNumber-SQLitePersistence.h
-c000000004C7EC02F0000000000000632
-t1283375151
-s1586
-i<Foundation/Foundation.h>
-i"NSObject-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSObject-ClassName.h
-c000000004C7EC02F0000000000000465
-t1283375151
-s1125
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSObject-MissingKV.h
-c000000004C7EC02F0000000000000177
-t1283375151
-s375
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSObject-SQLitePersistence.h
-c000000004C7EC02F00000000000011CF
-t1283375151
-s4559
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSString-NumberStuff.h
-c000000004C7EC02F0000000000000151
-t1283375151
-s337
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSString-SQLiteColumnName.h
-c000000004C7EC02F0000000000000444
-t1283375151
-s1092
-i<Foundation/Foundation.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSString-SQLitePersistence.h
-c000000004C7EC02F0000000000000624
-t1283375151
-s1572
-i<Foundation/Foundation.h>
-i"NSObject-SQLitePersistence.h"
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/NSString-UppercaseFirst.h
-c000000004C7EC02F00000000000004CE
-t1283375151
-s1230
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/SQLiteInstanceManager.h
-c000000004C7EC02F0000000000000870
-t1283375151
-s2160
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<sqlite3.h>
-i<objc/objc-runtime.h>
-i<objc/runtime.h>
-i<objc/message.h>
-
-N/Users/samuelsutch/dev/SQLitePersistentObjects/src/SQLitePersistentObject.h
-c000000004C7EC02F0000000000002764
-t1283375151
-s10084
-i<Foundation/Foundation.h>
-i<sqlite3.h>
-i<objc/objc-runtime.h>
-i<objc/runtime.h>
-i<objc/message.h>
-
-N/var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch.gch
-t1283376451
-s15232016
-
-NUnitTest-Info.plist
-c000000004C7EC49D000000000000027A
-t1283376285
-s634
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies305069248#305069249#0(0"0(0#1#0"8670640832#0"0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/BasicData.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.069955
-e305069252.231313
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/BasicData.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.m305069252#305069252#0(0"0(0#0#73"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.m8651681728#2366"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/BasicData.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/BasicData.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/Collections.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.097079
-e305069252.245223
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/Collections.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.m305069252#305069252#0(0"0(0#0#75"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.m8650581344#2370"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/Collections.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/Collections.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069251.894638
-e305069252.096944
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m: In function '-[GTMIPhoneUnitTestDelegate runTests]':
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:72: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:72: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:96: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:96: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)
-lSLF07#2@129"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m305069251#305069252#0(1528"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m: In function '-[GTMIPhoneUnitTestDelegate runTests]':/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:72: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:72: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:96: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m:96: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)4(22@202"'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)305069252#176#338#0(6@121"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m305069085#72#0#72#0#33"'*' is deprecated (declared at *)0(22@202"'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)305069252#514#338#0(6@121"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m305069085#72#0#72#0#33"'*' is deprecated (declared at *)0(22@202"'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)305069252#852#338#0(6@121"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m305069085#96#0#96#0#33"'*' is deprecated (declared at *)0(22@202"'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)305069252#1190#338#0(6@121"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m305069085#96#0#96#0#33"'*' is deprecated (declared at *)0(0#0#121"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m8660966752#2430"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestDelegate.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069251.893613
-e305069252.069806
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestMain.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@125"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestMain.m305069251#305069252#0(0"0(0#0#117"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestMain.m8678646752#2422"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMIPhoneUnitTestMain.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMSenTestCase.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069251.895556
-e305069252.106927
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMSenTestCase.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@118"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.m305069251#305069252#0(0"0(0#0#110"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.m8673939264#2408"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/google-toolbox-for-mac-1-5-1/UnitTesting/GTMSenTestCase.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/GTMSenTestCase.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSData-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSData-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.245372
-e305069252.324211
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSData-SQLitePersistence.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSData-SQLitePersistence.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSData-SQLitePersistence.m305069252#305069252#0(0"0(0#0#86"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSData-SQLitePersistence.m8605269344#2394"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSData-SQLitePersistence.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSData-SQLitePersistence.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDataContainer.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.107095
-e305069252.269768
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDataContainer.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.m305069252#305069252#0(0"0(0#0#79"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.m8649854880#2378"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NSDataContainer.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDataContainer.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDate-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSDate-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.269912
-e305069252.353100
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDate-SQLitePersistence.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSDate-SQLitePersistence.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSDate-SQLitePersistence.m305069252#305069252#0(0"0(0#0#86"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSDate-SQLitePersistence.m8665349440#2394"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSDate-SQLitePersistence.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSDate-SQLitePersistence.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableArray-MultipleSort.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableArray-MultipleSort.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.324363
-e305069252.417385
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableArray-MultipleSort.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableArray-MultipleSort.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableArray-MultipleSort.m305069252#305069252#0(0"0(0#0#89"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableArray-MultipleSort.m8663823968#2400"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableArray-MultipleSort.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableArray-MultipleSort.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableData-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.353332
-e305069252.451444
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableData-SQLitePersistence.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableData-SQLitePersistence.m305069252#305069252#0(0"0(0#0#93"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableData-SQLitePersistence.m8661371232#2408"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSMutableData-SQLitePersistence.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSNumber-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSNumber-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.355313
-e305069252.453350
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSNumber-SQLitePersistence.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSNumber-SQLitePersistence.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSNumber-SQLitePersistence.m305069252#305069252#0(0"0(0#0#88"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSNumber-SQLitePersistence.m8659810336#2398"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSNumber-SQLitePersistence.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSNumber-SQLitePersistence.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-ClassName.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-ClassName.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.384204
-e305069252.467290
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-ClassName.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-ClassName.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-ClassName.m305069252#305069252#0(0"0(0#0#80"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-ClassName.m8658657792#2382"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-ClassName.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-ClassName.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.417532
-e305069252.524594
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-SQLitePersistence.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-SQLitePersistence.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-SQLitePersistence.m305069252#305069252#0(0"0(0#0#88"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-SQLitePersistence.m8657433472#2398"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSObject-SQLitePersistence.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSObject-SQLitePersistence.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-NumberStuff.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-NumberStuff.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.451597
-e305069252.548172
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-NumberStuff.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-NumberStuff.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-NumberStuff.m305069252#305069252#0(0"0(0#0#82"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-NumberStuff.m8655688544#2386"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-NumberStuff.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-NumberStuff.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLiteColumnName.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.453477
-e305069252.558394
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLiteColumnName.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.m305069252#305069252#0(0"0(0#0#87"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.m8654806144#2396"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLiteColumnName.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLiteColumnName.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.467444
-e305069252.545502
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLitePersistence.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLitePersistence.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLitePersistence.m305069252#305069252#0(0"0(0#0#88"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLitePersistence.m8676556800#2398"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-SQLitePersistence.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-SQLitePersistence.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-UppercaseFirst.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-UppercaseFirst.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.524744
-e305069252.603088
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-UppercaseFirst.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-UppercaseFirst.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-UppercaseFirst.m305069252#305069252#0(0"0(0#0#85"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-UppercaseFirst.m8665595904#2392"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/NSString-UppercaseFirst.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NSString-UppercaseFirst.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NestedCollections.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.231430
-e305069252.355192
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NestedCollections.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.m305069252#305069252#0(0"0(0#0#81"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.m8636270336#2382"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/NestedCollections.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/NestedCollections.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/RecursiveReferential.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.129007
-e305069252.236940
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/RecursiveReferential.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.m305069252#305069252#0(0"0(0#0#84"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.m8643867936#2388"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Fixtures/RecursiveReferential.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/RecursiveReferential.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLiteInstanceManager.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.545641
-e305069252.698434
-r0
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLiteInstanceManager.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:23:38: error: NSFileManager+Convenience.h: No such file or directory
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m: In function '-[SQLiteInstanceManager database]':
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: 'NSFileManager' may not respond to '+fileNameExistsInDocumentsSandbox:'
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: (Messages without a matching method signature
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: will be assumed to return 'id' and accept
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: '...' as arguments.)
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:91: warning: 'NSFileManager' may not respond to '-copyResourceItem:toFileNameInSandboxDocs:andRetrunError:'
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m: In function '-[SQLiteInstanceManager databaseFilepath]':
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:206: warning: 'NSFileManager' may not respond to '+sandBoxDocsPathForFileName:'
-lSLF07#2@91"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m305069252#305069252#0(1354"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:23:38: error: NSFileManager+Convenience.h: No such file or directory/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m: In function '-[SQLiteInstanceManager database]':/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: 'NSFileManager' may not respond to '+fileNameExistsInDocumentsSandbox:'/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: (Messages without a matching method signature/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: will be assumed to return 'id' and accept/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:86: warning: '...' as arguments.)/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:91: warning: 'NSFileManager' may not respond to '-copyResourceItem:toFileNameInSandboxDocs:andRetrunError:'/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m: In function '-[SQLiteInstanceManager databaseFilepath]':/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m:206: warning: 'NSFileManager' may not respond to '+sandBoxDocsPathForFileName:'5(4@54"NSFileManager+Convenience.h: No such file or directory305069252#0#153#0(6@83"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m305067951#23#0#23#0#28"*: No such file or directory0(22@71"'NSFileManager' may not respond to '+fileNameExistsInDocumentsSandbox:'305069252#287#169#0(6@83"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m305067951#86#0#86#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)305069252#456#143#0(6@83"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m305067951#86#0#86#0#0"0(22@94"'NSFileManager' may not respond to '-copyResourceItem:toFileNameInSandboxDocs:andRetrunError:'305069252#856#192#0(6@83"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m305067951#91#0#91#0#26"'*' may not respond to '*'0(22@65"'NSFileManager' may not respond to '+sandBoxDocsPathForFileName:'305069252#1190#164#0(6@83"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m305067951#206#0#206#0#26"'*' may not respond to '*'0(0#0#83"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m8659240384#2388"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLiteInstanceManager.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLiteInstanceManager.o1#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject-Testing.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.698577
-e305069252.793024
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject-Testing.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.m305069252#305069252#0(0"0(0#0#93"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.m8663274592#2407"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Classes/SQLitePersistentObject-Testing.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject-Testing.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.548299
-e305069252.921539
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.m305069252#305069252#0(0"0(0#0#84"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.m8658330464#2390"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/SQLitePersistentObject.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/SQLitePersistentObject.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestDeleting.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestDeleting.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.237084
-e305069252.384048
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestDeleting.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestDeleting.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestDeleting.m305069252#305069252#0(0"0(0#0#73"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestDeleting.m8625511712#2369"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestDeleting.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestDeleting.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestReversion.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestReversion.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.603290
-e305069252.744343
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestReversion.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestReversion.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestReversion.m305069252#305069252#0(0"0(0#0#74"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestReversion.m8642900576#2371"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestReversion.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestReversion.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestSavingAndLoading.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069251.896650
-e305069252.128858
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestSavingAndLoading.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m: In function '-[TestSavingAndLoading assertIndex:forTable:exists:]':
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: 'NSString' may not respond to '-isEqualTo:'
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: (Messages without a matching method signature
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: will be assumed to return 'id' and accept
-o/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: '...' as arguments.)
-lSLF07#2@89"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m305069251#305069252#0(688"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m: In function '-[TestSavingAndLoading assertIndex:forTable:exists:]':/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: 'NSString' may not respond to '-isEqualTo:'/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: (Messages without a matching method signature/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: will be assumed to return 'id' and accept/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m:104: warning: '...' as arguments.)2(22@43"'NSString' may not respond to '-isEqualTo:'305069252#151#140#0(6@81"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m305069085#104#0#104#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)305069252#291#142#0(6@81"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m305069085#104#0#104#0#0"0(0#0#81"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m8675701472#2385"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestSavingAndLoading.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestSavingAndLoading.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestVariadicMethods.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestVariadicMethods.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.652633
-e305069252.765324
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestVariadicMethods.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestVariadicMethods.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestVariadicMethods.m305069252#305069252#0(0"0(0#0#80"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestVariadicMethods.m8623913472#2383"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/Tests/TestVariadicMethods.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/TestVariadicMethods.o0#
-
-CCompileC build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/UIImage-SQLitePersistence.o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/UIImage-SQLitePersistence.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069252.558525
-e305069252.652499
-r1
-xCompileC
-xbuild/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/UIImage-SQLitePersistence.o
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/UIImage-SQLitePersistence.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/UIImage-SQLitePersistence.m305069252#305069252#0(0"0(0#0#87"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/UIImage-SQLitePersistence.m8655206144#2396"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -include /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../src/UIImage-SQLitePersistence.m -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/UIImage-SQLitePersistence.o0#
-
-CGenerateDSYMFile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app.dSYM /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/UnitTest
-r0
-
-CLd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/UnitTest normal i386
-r0
-
-CPhaseScriptExecution "Run Script" /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Script-00A839340EEEFB22001F7FAE.sh
-s305069252.921640
-e305069252.962985
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Script-00A839340EEEFB22001F7FAE.sh
-ogoogle-toolbox-for-mac-1-5-1/UnitTesting/RunIPhoneUnitTest.sh: line 23: /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/UnitTest: No such file or directory
-lSLF07#2@36"Run custom shell script 'Run Script'305069252#305069252#0(202"google-toolbox-for-mac-1-5-1/UnitTesting/RunIPhoneUnitTest.sh: line 23: /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/UnitTest: No such file or directory1(4@201"Google-toolbox-for-mac-1-5-1/UnitTesting/RunIPhoneUnitTest.sh: line 23: /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/UnitTest: No such file or directory305069252#0#202#0(1@0"0(0#0#0"8659107552#18268"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER samuelsutch    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build    setenv BUILD_ROOT /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer: Samuel Sutch (27FP3L7KH9)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH UnitTest.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/SQLiteTests.dst    setenv DWARF_DSYM_FILE_NAME UnitTest.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH UnitTest.app/Executables    setenv EXECUTABLE_FOLDER_PATH UnitTest.app    setenv EXECUTABLE_NAME UnitTest    setenv EXECUTABLE_PATH UnitTest.app/UnitTest    setenv FILE_LIST /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH UnitTest.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator\"  \"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks\" \"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME UnitTest.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER SQLiteTests_Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE UnitTest-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH UnitTest.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/SQLiteTests.dst/Users/samuelsutch/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER samuelsutch    setenv INSTALL_PATH /Users/samuelsutch/Applications    setenv INSTALL_ROOT /tmp/SQLiteTests.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH UnitTest.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator\"  \"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks/OCMock.framework\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal/i386/UnitTest.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Objects-normal    setenv OBJROOT /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH UnitTest.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/PkgInfo    setenv PKGINFO_PATH UnitTest.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH UnitTest.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH UnitTest.app/PrivateHeaders    setenv PRODUCT_NAME UnitTest    setenv PRODUCT_SETTINGS_PATH /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/UnitTest-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT SQLiteTests    setenv PROJECT_DERIVED_FILE_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/DerivedSources    setenv PROJECT_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv PROJECT_FILE_PATH /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/SQLiteTests.xcodeproj    setenv PROJECT_NAME SQLiteTests    setenv PROJECT_TEMP_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build    setenv PROVISIONING_PROFILE 6B804D18-E2EC-4BD1-9979-FDB0FF214E35    setenv PUBLIC_HEADERS_FOLDER_PATH UnitTest.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH UnitTest.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk    setenv SDK_NAME iphonesimulator4.0    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH UnitTest.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH UnitTest.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv SRCROOT /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/SymbolRepositories    setenv SYMROOT /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME UnitTest    setenv TARGET_BUILD_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator    setenv TARGET_NAME UnitTest    setenv TARGET_TEMP_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build    setenv TEMP_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build    setenv TEMP_FILES_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build    setenv TEMP_FILE_DIR /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build    setenv TEMP_ROOT /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH UnitTest.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER samuelsutch    setenv USER_APPS_DIR /Users/samuelsutch/Applications    setenv USER_LIBRARY_DIR /Users/samuelsutch/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH UnitTest.app/version.plist    setenv VERSION_INFO_BUILDER samuelsutch    setenv VERSION_INFO_FILE UnitTest_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:UnitTest  PROJECT:SQLiteTests-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME UnitTest.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/Script-00A839340EEEFB22001F7FAE.sh0#
-
-CProcessInfoPlistFile /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/Info.plist UnitTest-Info.plist
-s305069249.309436
-e305069249.312725
-r1
-xProcessInfoPlistFile
-x/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/Info.plist
-xUnitTest-Info.plist
-lSLF07#2@27"Process UnitTest-Info.plist305069249#305069249#0(0"0(0#0#72"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/UnitTest-Info.plist8676128096#631"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility UnitTest-Info.plist -genpkginfo /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app/Info.plist0#
-
-CProcessPCH /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch.gch SQLiteTests_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s305069249.312911
-e305069251.893391
-r1
-xProcessPCH
-x/var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch.gch
-xSQLiteTests_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile SQLiteTests_Prefix.pch305069249#305069251#0(0"0(0#0#75"/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/SQLiteTests_Prefix.pch8674215904#2224"    cd /Users/samuelsutch/dev/SQLitePersistentObjects/Tests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-generated-files.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-own-target-headers.hmap -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-all-target-headers.hmap -iquote /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/UnitTest-project-headers.hmap -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/../../../Library/Frameworks -F/Users/samuelsutch/dev/SQLitePersistentObjects/Tests -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/include -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources/i386 -I/Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/SQLiteTests.build/Debug-iphonesimulator/UnitTest.build/DerivedSources -c /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/SQLiteTests_Prefix.pch -o /var/folders/MG/MGM5O+y2Fp4XYt5bN5wW1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQLiteTests_Prefix-eqzcmobywvofzcdfsbfwvtcpkuko/SQLiteTests_Prefix.pch.gch0#
-
-CTouch /Users/samuelsutch/dev/SQLitePersistentObjects/Tests/build/Debug-iphonesimulator/UnitTest.app
-r0
-
