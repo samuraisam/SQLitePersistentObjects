@@ -59,6 +59,8 @@
  */
 // TODO: Look at marking object "dirty" when changes are made, and if it's not dirty, save becomes a no-op.
 
+@class SQLiteInstanceManager;
+
 @interface SQLitePersistentObject : NSObject {
   
 @private
@@ -213,5 +215,8 @@
 #ifdef TARGET_OS_COCOTRON
 + (NSArray *)getPropertiesList;
 #endif
+
++ (sqlite3 *)database;
++ (SQLiteInstanceManager *)manager;
 
 @end

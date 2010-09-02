@@ -120,7 +120,7 @@ NSMutableArray *checkedTables;
 + (double)performSQLAggregation: (NSString *)query, ...
 {
   double ret = -1.0;
-  sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *database = [self database];
   
   // Added variadic ability to all criteria accepting methods -SLyons (10/03/2009)
   va_list argumentList;
@@ -189,7 +189,7 @@ NSMutableArray *checkedTables;
   
   countQuery = [NSString stringWithFormat:@"SELECT COUNT(*) FROM %@ %@", [self tableName], queryString];
   [queryString release];
-  sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *database = [self database];
   sqlite3_stmt *statement;
   if (sqlite3_prepare_v2(database, [countQuery UTF8String], -1, &statement, nil) == SQLITE_OK) 
   {
@@ -234,7 +234,7 @@ NSMutableArray *checkedTables;
   [[self class] tableCheck];
   NSMutableArray *ret = [NSMutableArray array];
   NSDictionary *theProps = [self propertiesWithEncodedTypes];
-  sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *database = [self database];
   
   // Added variadic ability to all criteria accepting methods -SLyons (10/03/2009)
   va_list argumentList;
@@ -565,7 +565,7 @@ NSMutableArray *checkedTables;
 {
   NSMutableDictionary *ret = [NSMutableDictionary dictionary];
   [[self class] tableCheck];
-  sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *database = [self database];
   
   NSString *query = [NSString stringWithFormat:@"SELECT pk, %@ FROM %@ ORDER BY %@, pk", [theProp stringAsSQLColumnName], [[self class] tableName],  [theProp stringAsSQLColumnName]];
   sqlite3_stmt *statement;
@@ -590,7 +590,7 @@ NSMutableArray *checkedTables;
   NSMutableArray *ret = [NSMutableArray array];
   [[self class] tableCheck];
   
-  sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *database = [self database];
   
   NSMutableString *query = [NSMutableString stringWithString:@"select pk"];
   
@@ -653,7 +653,7 @@ NSMutableArray *checkedTables;
     [ret addObject:[NSMutableArray array]];
   }
   [[self class] tableCheck];
-  sqlite3 *db = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *db = [self database];
   sqlite3_stmt *stmt;
   if (sqlite3_prepare_v2(db, [selectString UTF8String], -1, &stmt, NULL) == SQLITE_OK) {
     while (sqlite3_step(stmt) == SQLITE_ROW) {
@@ -810,7 +810,7 @@ NSMutableArray *checkedTables;
   {
     dirty = NO;
     
-    sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+    sqlite3 *database = [[self class] database];
     
     // If this object is new, we need to figure out the correct primary key value, 
     // which will be one higher than the current highest pk value in the table.
@@ -1158,7 +1158,7 @@ NSMutableArray *checkedTables;
   [[self class] unregisterObject:self];
   
   NSString *deleteQuery = [NSString stringWithFormat:@"DELETE FROM %@ WHERE pk = %d", [[self class] tableName], pk];
-  sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *database = [[self class] database];
   char *errmsg = NULL;
   if (sqlite3_exec (database, [deleteQuery UTF8String], NULL, NULL, &errmsg) != SQLITE_OK)
     NSLog(@"Error deleting row in table: %s", errmsg);
@@ -1543,7 +1543,7 @@ NSMutableArray* recursionCheck;
 {
   NSMutableArray *ret = [NSMutableArray array];
   // pragma table_info(i_c_project);
-  sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+  sqlite3 *database = [self database];
   NSString *query = [NSString stringWithFormat:@"pragma table_info(%@);", [self tableName]];
   sqlite3_stmt *stmt;
   if (sqlite3_prepare_v2( database,  [query UTF8String], -1, &stmt, nil) == SQLITE_OK) {
@@ -1572,7 +1572,7 @@ NSMutableArray* recursionCheck;
     
     // Do not use static variables to cache information in this method, as it will be
     // shared across subclasses. Do caching in instance methods.
-    sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
+    sqlite3 *database = [self database];
     NSMutableString *createSQL = [NSMutableString stringWithFormat:@"CREATE TABLE IF NOT EXISTS %@ (pk INTEGER PRIMARY KEY",[self tableName]];
     
     NSDictionary* props = [[self class] propertiesWithEncodedTypes];
@@ -1735,7 +1735,7 @@ NSMutableArray* recursionCheck;
             else if ([propClass canBeStoredInSQLite])
               colType = [propClass columnTypeForObjectStorage];
             
-            [[SQLiteInstanceManager sharedManager] executeUpdateSQL:[NSString stringWithFormat:@"alter table %@ add column %@ %@", [self tableName], propName, colType]];
+            [[self manager] executeUpdateSQL:[NSString stringWithFormat:@"alter table %@ add column %@ %@", [self tableName], propName, colType]];
           }
         }
         else
@@ -1756,7 +1756,7 @@ NSMutableArray* recursionCheck;
                    [propType isEqualToString:@"d"] )  // double
             colType = @"REAL";
           
-          [[SQLiteInstanceManager sharedManager] executeUpdateSQL:[NSString stringWithFormat:@"alter table %@ add column %@ %@", [self tableName], propName, colType]];
+          [[self manager] executeUpdateSQL:[NSString stringWithFormat:@"alter table %@ add column %@ %@", [self tableName], propName, colType]];
         }
       }
       
@@ -1767,6 +1767,19 @@ NSMutableArray* recursionCheck;
 {
   pk = newPk;
 }
+
+#pragma mark -
+#pragma mark Multi-DB Support
++ (sqlite3 *)database
+{
+  return [[SQLiteInstanceManager sharedManager] database];
+}
+
++ (SQLiteInstanceManager *)manager
+{
+  return [SQLiteInstanceManager sharedManager];
+}
+
 #pragma mark -
 #pragma mark KV
 - (void)takeValuesFromDictionary:(NSDictionary *)properties
