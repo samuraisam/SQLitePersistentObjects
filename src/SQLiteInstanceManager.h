@@ -22,7 +22,7 @@
 #else
 #import <UIKit/UIKit.h>
 #endif
-//#import "/usr/include/sqlite3.h"
+
 #import <sqlite3.h>
 
 #if (! TARGET_OS_IPHONE)
@@ -46,10 +46,9 @@ typedef enum SQLITE3LockingMode
 } SQLITE3LockingMode;
 
 
-@interface SQLiteInstanceManager : NSObject {
-
+@interface SQLiteInstanceManager : NSObject 
+{
   @private
-  SQLiteInstanceManager *singleton;
   NSString *databaseFilepath;
   NSString *databaseName;
   sqlite3 *database;

@@ -34,46 +34,13 @@ static SQLiteInstanceManager *sharedSQLiteManager = nil;
 
 #pragma mark -
 #pragma mark Singleton Methods
-+ (id)sharedManager 
++ (id)sharedManager
 {
-  @synchronized(self) 
-  {
-    if (sharedSQLiteManager == nil) 
-      [[self alloc] init]; 
-  }
+  if (!sharedSQLiteManager)
+    sharedSQLiteManager = [[self alloc] init];
   return sharedSQLiteManager;
 }
-+ (id)allocWithZone:(NSZone *)zone
-{
-  @synchronized(self) {
-    if (sharedSQLiteManager == nil) 
-    {
-      sharedSQLiteManager = [super allocWithZone:zone];
-      return sharedSQLiteManager; 
-    }
-  }
-  return nil;
-}
-- (id)copyWithZone:(NSZone *)zone
-{
-  return self;
-}
-- (id)retain
-{
-  return self;
-}
-- (unsigned)retainCount
-{
-  return UINT_MAX;  //denotes an object that cannot be released
-}
-- (void)release
-{
-  // never release
-}
-- (id)autorelease
-{
-  return self;
-}
+
 #pragma mark -
 #pragma mark Public Instance Methods
 -(sqlite3 *)database
@@ -164,6 +131,7 @@ static SQLiteInstanceManager *sharedSQLiteManager = nil;
 
 - (NSString *)databaseFilepath
 {
+  NSAssert(self.databaseName != nil, @"You must specify a databaseName for non-shared instances");
   if (!databaseFilepath) {
 #if (TARGET_OS_COCOTRON)
     databaseFilepath = [[@"./" stringByAppendingPathComponent:self.databaseName] retain];
@@ -183,7 +151,7 @@ static SQLiteInstanceManager *sharedSQLiteManager = nil;
 
 - (NSString *)databaseName
 {
-  if (!databaseName) {
+  if (!databaseName && self == sharedSQLiteManager) {
     NSMutableString *ret = [NSMutableString string];
     NSString *appName = [[NSProcessInfo processInfo] processName];
     for (int i = 0; i < [appName length]; i++) {
