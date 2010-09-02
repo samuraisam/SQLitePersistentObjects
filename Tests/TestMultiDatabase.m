@@ -11,6 +11,7 @@
 #import "SQLiteInstanceManager.h"
 #import "BasicData.h"
 
+
 @interface SiloDatabase : SQLitePersistentObject
 {
   NSString *iama;
@@ -19,6 +20,7 @@
 @property(retain) NSString *ima;
 
 @end
+
 
 @implementation SiloDatabase
 
