@@ -19,6 +19,7 @@
 		00B150940EFEF4290086D2EC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B150930EFEF4280086D2EC /* libsqlite3.0.dylib */; };
 		00DC746B0F22F388000D1CC6 /* NestedCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC746A0F22F388000D1CC6 /* NestedCollections.m */; };
 		00DC746D0F22F391000D1CC6 /* TestDeleting.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC746C0F22F391000D1CC6 /* TestDeleting.m */; };
+		1594306B122F374A00DB6B79 /* TestMultiDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1594306A122F374A00DB6B79 /* TestMultiDatabase.m */; };
 		377D48B40F58AAE3007D613B /* TestReversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D48B30F58AAE3007D613B /* TestReversion.m */; };
 		37D35B9C0F67EAF300EEFFDF /* TestVariadicMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D35B9B0F67EAF300EEFFDF /* TestVariadicMethods.m */; };
 		61992A130F47F9650052219A /* NSData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 619929F60F47F9650052219A /* NSData-SQLitePersistence.m */; };
@@ -60,6 +61,7 @@
 		00DC74690F22F388000D1CC6 /* NestedCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NestedCollections.h; path = Fixtures/NestedCollections.h; sourceTree = "<group>"; };
 		00DC746A0F22F388000D1CC6 /* NestedCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NestedCollections.m; path = Fixtures/NestedCollections.m; sourceTree = "<group>"; };
 		00DC746C0F22F391000D1CC6 /* TestDeleting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestDeleting.m; path = Tests/TestDeleting.m; sourceTree = "<group>"; };
+		1594306A122F374A00DB6B79 /* TestMultiDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMultiDatabase.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		377D48B30F58AAE3007D613B /* TestReversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestReversion.m; path = Tests/TestReversion.m; sourceTree = "<group>"; };
 		37D35B9B0F67EAF300EEFFDF /* TestVariadicMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestVariadicMethods.m; path = Tests/TestVariadicMethods.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				377D48B30F58AAE3007D613B /* TestReversion.m */,
 				00DC746C0F22F391000D1CC6 /* TestDeleting.m */,
 				00A625000F1F472A00696BD9 /* TestSavingAndLoading.m */,
+				1594306A122F374A00DB6B79 /* TestMultiDatabase.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				377D48B40F58AAE3007D613B /* TestReversion.m in Sources */,
 				37D35B9C0F67EAF300EEFFDF /* TestVariadicMethods.m in Sources */,
 				61A08F6B0F7DC002005362D4 /* SQLitePersistentObject-Testing.m in Sources */,
+				1594306B122F374A00DB6B79 /* TestMultiDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -39,6 +39,7 @@ typedef enum SQLITE3AutoVacuum
   kSQLITE3AutoVacuumIncrementalVacuum,
     
 } SQLITE3AutoVacuum;
+
 typedef enum SQLITE3LockingMode
 {
   kSQLITE3LockingModeNormal = 0,
@@ -65,5 +66,6 @@ typedef enum SQLITE3LockingMode
 - (void)setLockingMode:(SQLITE3LockingMode)mode;
 - (void)deleteDatabase;
 - (void)vacuum;
-- (void)executeUpdateSQL:(NSString *) updateSQL;
+- (void)executeUpdateSQL:(NSString *)updateSQL;
+
 @end
